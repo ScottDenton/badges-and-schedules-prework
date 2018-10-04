@@ -10,7 +10,7 @@ def batch_badge_creator(array)
   index = 0
   
   array.each do |name| 
-    new_array[index] = name
+    new_array[index] = "Hello, my name is #{name}."
     index += 1 
   end 
 end 
