@@ -14,5 +14,6 @@ def batch_badge_creator(array)
     new_array << badge_maker(name)
     
   end 
+  new_array
 end 
 
