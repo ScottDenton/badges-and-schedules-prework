@@ -7,12 +7,12 @@ end
 
 def batch_badge_creator(array)
   new_array = []
-  index = 0
+  
   
   array.each do |name| 
     
-    new_array[index] = badge_maker(name)
-    index += 1 
+    new_array << badge_maker(name)
+    
   end 
 end 
 
