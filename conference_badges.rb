@@ -29,5 +29,10 @@ def printer (array)
   badges.each do |badges|
     puts badges
   end
+  
+  rooms = assign_rooms(array)
+  rooms.each do |room|
+    puts room
+  end
 end
 
